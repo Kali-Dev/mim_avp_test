@@ -6,5 +6,4 @@ metadata:
     avp.kubernetes.io/path: "secret/data/sample-app" # Placeholder for Vault integration later.
 data:
   sample-config.toml: |
-    {{ .Files.Get "files/sample-config.toml" }}
-
+    {{ .Files.Get "files/sample-config.toml" | nindent 4 }}
