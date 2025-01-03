@@ -1,0 +1,6 @@
+[database]
+username = "<MYSQL_USERNAME>"
+password = "<MYSQL_PASSWORD>"
+
+[redis]
+password = "<REDIS_PASSWORD>"
